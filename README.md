@@ -3,7 +3,9 @@ Matlab script and example files for analyzing hyperpolarized 129Xe calibration d
 
 ## Authorship
 Author: Peter J. Niedbalski 
+
 Contact: pniedbalski@kumc.edu
+
 Written: June 21, 2021
 
 ## Main Function: calibration_analysis.m
@@ -17,7 +19,9 @@ Several values are hardcoded in this function to correspond to the parameters re
 
 As written, this function is designed for data acquired at 3T. However, values for 1.5T are included as comments.
 
-Fitting is performed in the time domain using code provided in Robertson SH, et al. Uncovering a third dissolved-phase 129Xe resonance in the human lung: Quantifying spectroscopic features in healthy subjects and patients with idiopathic pulmonary fibrosis. Magn Reson Med 2017;78(4):1306-1315.
+Fitting is performed in the time domain using code provided in:
+
+Robertson SH, et al. Uncovering a third dissolved-phase 129Xe resonance in the human lung: Quantifying spectroscopic features in healthy subjects and patients with idiopathic pulmonary fibrosis. Magn Reson Med 2017;78(4):1306-1315.
 
 ### Inputs
 - disfids: all dissolved FIDs, shaped as (NPts x NFIDs)
